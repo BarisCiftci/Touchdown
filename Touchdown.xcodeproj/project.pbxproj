@@ -23,6 +23,10 @@
 		3D126CBB294FA4F900A7B08B /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126CBA294FA4F900A7B08B /* CodableBundleExtension.swift */; };
 		3D126CBD294FA89000A7B08B /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D126CBC294FA89000A7B08B /* FeaturedItemView.swift */; };
 		3D25F396294FADFE00F0CE7E /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D25F395294FADFE00F0CE7E /* FeaturedTabView.swift */; };
+		3D25F3982951029B00F0CE7E /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D25F3972951029B00F0CE7E /* CategoryModel.swift */; };
+		3D25F39C2951068B00F0CE7E /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D25F39B2951068B00F0CE7E /* CategoryItemView.swift */; };
+		3D25F39E2951097C00F0CE7E /* CotegoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D25F39D2951097C00F0CE7E /* CotegoryGridView.swift */; };
+		3D25F3A029510BC500F0CE7E /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D25F39F29510BC500F0CE7E /* SectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		3D126CBA294FA4F900A7B08B /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		3D126CBC294FA89000A7B08B /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		3D25F395294FADFE00F0CE7E /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		3D25F3972951029B00F0CE7E /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		3D25F39B2951068B00F0CE7E /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		3D25F39D2951097C00F0CE7E /* CotegoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CotegoryGridView.swift; sourceTree = "<group>"; };
+		3D25F39F29510BC500F0CE7E /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				3D126CB8294FA48B00A7B08B /* PlayerModel.swift */,
+				3D25F3972951029B00F0CE7E /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +174,9 @@
 				3D126CB6294D1B2100A7B08B /* LogoView.swift */,
 				3D126CBC294FA89000A7B08B /* FeaturedItemView.swift */,
 				3D25F395294FADFE00F0CE7E /* FeaturedTabView.swift */,
+				3D25F39B2951068B00F0CE7E /* CategoryItemView.swift */,
+				3D25F39D2951097C00F0CE7E /* CotegoryGridView.swift */,
+				3D25F39F29510BC500F0CE7E /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -245,12 +257,16 @@
 			files = (
 				3D126CBD294FA89000A7B08B /* FeaturedItemView.swift in Sources */,
 				3D126CBB294FA4F900A7B08B /* CodableBundleExtension.swift in Sources */,
+				3D25F39E2951097C00F0CE7E /* CotegoryGridView.swift in Sources */,
 				3D126C92294CF3EB00A7B08B /* ContentView.swift in Sources */,
 				3D126CB7294D1B2100A7B08B /* LogoView.swift in Sources */,
 				3D126CB3294D014A00A7B08B /* FooterView.swift in Sources */,
 				3D126C90294CF3EB00A7B08B /* TouchdownApp.swift in Sources */,
 				3D126CAF294CF9E000A7B08B /* Constant.swift in Sources */,
+				3D25F3982951029B00F0CE7E /* CategoryModel.swift in Sources */,
 				3D126CB5294D170900A7B08B /* NavigationBarView.swift in Sources */,
+				3D25F3A029510BC500F0CE7E /* SectionView.swift in Sources */,
+				3D25F39C2951068B00F0CE7E /* CategoryItemView.swift in Sources */,
 				3D25F396294FADFE00F0CE7E /* FeaturedTabView.swift in Sources */,
 				3D126CB9294FA48B00A7B08B /* PlayerModel.swift in Sources */,
 			);
