@@ -30,7 +30,7 @@ struct ContentView: View {
                     }//: VSTACK
                 })//: SCROLL
             }//: VSTACK
-            .background(Color.red.ignoresSafeArea(.all, edges: .all))
+            .background(colorBackground.ignoresSafeArea(.all, edges: .all))
         }//: ZSTACK
         .ignoresSafeArea(.all, edges: .top)
     }
