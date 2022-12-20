@@ -26,6 +26,16 @@ struct ContentView: View {
                         FeaturedTabView()
                             .padding(.vertical, 20)
                         CotegoryGridView()
+                        
+                        TitleView(title: "Helmet")
+                        
+                        LazyVGrid(columns: gridLayout, spacing: 15, content: {
+                            ForEach(products) { product in
+                                ProductItemView(product: product)
+                            }//: LOOP
+                        })//: GRID
+                        .padding(15)
+                        
                             .padding(.vertical,20)
                         FooterView()
                             .padding(.horizontal)
